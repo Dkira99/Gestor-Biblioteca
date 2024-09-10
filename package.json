@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "bcrypt": "^5.1.1",
+    "biblioteca": "file:",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
@@ -15,7 +16,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "star": "node src/main.js",
+    "start": "node src/main.js",
     "test": "node testEnv.js"
   },
   "keywords": [],
